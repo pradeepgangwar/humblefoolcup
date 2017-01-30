@@ -29,15 +29,25 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/header.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   </head>
 
   <body>
-   <nav class="light-blue lighten-1" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">Logo</a>
-        <ul class="right hide-on-med-and-down">
-          <li>
+    <div id="scroll-animate">
+  <div id="scroll-animate-main">
+    <div class="wrapper-parallax">
+    <header>
+  <div class="header-banner">
+    <a href="/" class="logo"></a>
+   
+    <h1>Welcome</h1>
+   
+  </div>
+  <div class="clear"></div>
+  <nav>
+    <ul>
+     <li>
             <a href="#Welcome">Welcome</a>
           </li>
           <li>
@@ -54,31 +64,13 @@
           </li>
           <li>
             <a href="humblefool/humblefool.html">Tribute page</a>
-          </li>
-        </ul>
-        <ul id="nav-mobile" class="side-nav">
-          <li>
-            <a href="#Welcome">Welcome</a>
-          </li>
-          <li>
-            <a href="#timeline">Timeline</a>
-          </li>
-            <li>
-            <a href="#Events">Events</a>
-          </li>
-          <li>
-            <a href="#sponsors">Sponsors</a>
-          </li>
-          <li>
-            <a href="humblefool/humblefool.html">Tribute page</a>
-          </li>
-        
-          
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse">
-          <i class="material-icons">menu</i>
-        </a>
-      </div>
+      </li>
+    <ul>
+  </nav>
+</header>
+     
+
+<section class="content">
     </nav>
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
@@ -258,51 +250,36 @@
       </div>
 </div>
 
-
+</section>
      <footer class="page-footer orange">
       <div class="container">
         <div class="row">
           
-          <div class="col l3 s12">
-            <h5 class="white-text">ORGANISERS</h5>
-            <ul>
-              <li>
-                <a class="white-text">1st organiser - 0000000000</a>
-              </li>
-              <li>
-                <a class="white-text" >2nd organiser - 0000000000</a>
-              </li>
-              <li>
-                <a class="white-text" >3rd organiser - 0000000000</a>
-              </li>
-             
-            </ul>
-          </div>
-          
-          <div align="right" class="col l3 s35 m10">
+          <span id="rigt" class="col l3 s35 m10">
             
-            <ul>
-              <li>
-                <a class="white-text" href="https://aparoksha.iiita.ac.in/">APAROKSHA</a>
-              </li>
-              <li>
+            <p align="right">
+                <a class="white-text" href="https://aparoksha.iiita.ac.in/">APAROKSHA</a><br>
                 <a class="white-text" href="#!">TEAM PAGE</a>
-              </li>
+              </p>
              
               
               
-            </ul>
-          </div>
+            
+          </span>
         </div>
       </div>
       <div class="footer-copyright">
-        <div class="container">In the memory of
-          HARSHA SURYANARAYANA by participants of  <a class="white-text" href="https://fossiiita.github.io/opencodecollab/">OpenCode</a>
+        <div align="center" class="container"><a class="white-text" href="humblefool/humblefool.html"> In the memory of
+          HARSHA SURYANARAYANA by participants of</a>  <a class="white-text" href="https://fossiiita.github.io/opencodecollab/">OpenCode</a>
       </div>
     </footer>
+        </div>
+  </div>
+</div>
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
+        <script src="js/header.js"></script>
     <script src="js/init.js"></script>
   <script type="text/javascript">//uses classList, setAttribute, and querySelectorAll
 //if you want this to work in IE8/9 youll need to polyfill these
