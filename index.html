@@ -30,18 +30,25 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/header.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
+    <link rel="stylesheet" href="css/loader.css">
   </head>
 
   <body>
+  <div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+		</div>
     <div id="scroll-animate">
   <div id="scroll-animate-main">
     <div class="wrapper-parallax">
     <header>
   <div class="header-banner">
-    <a href="/" class="logo"></a>
+    <a href="/" class="logo"></
    
-    <h1>Welcome</h1>
+    <a href="humblefool/humblefool.html"><h1>HUMBLEFOOLCUP</h1></a>
    
   </div>
   <div class="clear"></div>
@@ -65,6 +72,12 @@
           <li>
             <a href="humblefool/humblefool.html">Tribute page</a>
       </li>
+      <li>
+            <!-- <a href="team.html">Our Team</a> -->
+      </li>
+      <li>
+            <a href="stats.html">2k16 Stats</a>
+      </li>
     <ul>
   </nav>
 </header>
@@ -76,14 +89,14 @@
       <div class="container">
         <br><br>
          <div class="container" id="Welcome">
-        <a href="humblefool/humblefool.html"><h1 class="header center orange-text">Humblefool Cup</h1></a>
+      
         <div class="row center">
-          <h5 class="header col s12 light">Humblefoolcup is a contest under Aparoksha 2016, annual Tech Fest of IIIT Allahabad</h5>
+          <h3 class="header col s12 light">A contest under Aparoksha 2017, annual Tech Fest of IIIT Allahabad</h3>
         </div>
         <br><br>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="about">
       <div class="section">
         <!--   Icon Section   -->
         <div class="row">
@@ -93,7 +106,7 @@
                 <i class="material-icons">info_outline</i>
               </h2>
               <h5 class="center">About The Rounds</h5>
-              <p class="light">The Competition Will Be Held In Two Rounds.The prelims is conducted online while those selected for the finals get an invitation for the finals conducted at IIITA.
+              <p class="light">The Competition Will Be Held In Two Rounds.The prelims is conducted online while those selected for the finals get an invitation for the finals conducted at IIITA.There will be seperate winners for the national and international round.
               <br> 
               
               </p>
@@ -105,7 +118,7 @@
                 <i class="material-icons">star</i>
               </h2>
               <h5 class="center">Prizes</h5>
-              <p class="light">Along with the fun of solving problems, there are prizes in cash amounting to INR 40000 to be won. Winning team will also receive the Humblefool Trophy.T-Shirts Is Also A Part Of The Exciting Prizes<br></p>
+              <p class="light">Along with the fun of solving problems, there are prizes in cash amounting to USD 500 to be won. Winning team will also receive the Humblefool Trophy.T-Shirts will be also given to the winners<br></p>
             </div>
           </div>
           <div class="col s12 m4">
@@ -114,7 +127,7 @@
                 <i class="material-icons">perm_identity</i>
               </h2>
               <h5 class="center">About</h5>
-              <p class="light">Humblefoolcup is a contest under Aparoksha 2016, annual Tech Fest of IIIT Allahabad conducted in the memory of Harsha SuryaNarayana A.K.A Humblefool.
+              <p class="light">Humblefoolcup is a contest under Aparoksha 2017, annual Tech Fest of IIIT Allahabad conducted in the memory of Harsha SuryaNarayana A.K.A Humblefool.
               Harsha Suryanarayana, popularly known as humblefool to the coding community, and as Lord among his friends and the people close to him. He Died in an accident on the night of 15th June'14
                 </p>
             </div>
@@ -127,7 +140,7 @@
       </div>
     </div></div>
     <h1 id="timeline" align="center">Event Timeline</h1>
-    <ul class="timeline">
+    <ul class="timeline" id="timeline-items">
       <!-- Item 1 -->
       <li>
         <div class="direction-r">
@@ -135,10 +148,10 @@
             <span class="hexa"></span>
             <span class="flag">First Round :Online.</span>
             <span class="time-wrapper">
-              <span class="time">March 2017</span>
+              <span class="time">Feb 21</span>
             </span>
           </div>
-          <div class="desc">The online round will be held world wide and Top 50 participants will get selected to the final round.</div>
+          <div class="desc">The online round will be held world wide and Top 50 participants will get selected to the final round. The International round winners will be decided then itself</div>
         </div>
       </li>
       <!-- Item 2 -->
@@ -148,16 +161,16 @@
             <span class="hexa"></span>
             <span class="flag">Cup Final.</span>
             <span class="time-wrapper">
-              <span class="time">March 2017</span>
+              <span class="time">26 March 2017</span>
             </span>
           </div>
-          <div class="desc">Will be held during Aparoksha at IIIT-A.Top teams will arrive at Allahabad for the final showdown</div>
+          <div class="desc">Will be held during Aparoksha at IIIT-A.Top participants will arrive at Allahabad for the final showdown</div>
         </div>
       </li>
       
     </ul>
 <!--events section -->
-    <div class="containerr">
+    <div class="container">
   <h1 id="Events" align="center">Events</h1>
   <div class="card-media">
     <!-- media container -->
@@ -167,7 +180,7 @@
     <!-- body container -->
     <div class="card-media-body">
       <div class="card-media-body-top">
-        <span class="subtle">Mon, March , 10:00 AM</span>
+        <span class="subtle">21, February , 09:00 PM</span>
         <div class="card-media-body-top-icons u-float-right">
           
           
@@ -180,36 +193,10 @@
       </div>
       <div class="card-media-body-supporting-bottom card-media-body-supporting-bottom-reveal">
         
-        <a href="#/" class="card-media-body-supporting-bottom-text card-media-link u-float-right">REGISTER NOW</a>
+        <a href="https://aparoksha.iiita.ac.in/humblefoolcup/Register/" class="card-media-body-supporting-bottom-text card-media-link u-float-right">REGISTER NOW</a>
       </div>
     </div>
   </div>
-
-  <!-- Item 2 -->
-  <div class="card-media">
-    <!-- media container -->
-    <div class="card-media-object-container">
-      <div class="card-media-object" style="background-image: url(https://hourofcode.com/us/en/images/hour-of-code-logo.png); background-size: contain; background-repeat: no-repeat;"></div>
-      </div>
-    <!-- body container -->
-    <div class="card-media-body">
-      <div class="card-media-body-top">
-        <span class="subtle">Mon, March 25, 10:00 AM</span>
-        <div class="card-media-body-top-icons u-float-right">
-          
-          
-        </div>
-      </div>
-      <span class="card-media-body-heading">Final Round.</span>
-      <div class="card-media-body-supporting-bottom">
-        <span class="card-media-body-supporting-bottom-text subtle">Room No. 5007, CC-3, IIITA</span>
-        
-      </div>
-      <div class="card-media-body-supporting-bottom card-media-body-supporting-bottom-reveal">
-        
-        <a href="#/" class="card-media-body-supporting-bottom-text card-media-link u-float-right">REGISTER NOW</a>
-      </div>
-    </div>
   </div>
   
   
@@ -220,16 +207,25 @@
           <h1 class="heading-primary">FAQ</h1>
             <ul class="collapsible popout" data-collapsible="accordion">
               <li>
-                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-header">Is it a team event or an individual event?</div>
+                <div class="collapsible-body"><span>it is an individual event</span></div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-header">How much is the prize for international winners?</div>
+                <div class="collapsible-body"><span>A prize money of 100 USD will be given on that day itself.<span></div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-header">Where is the onsite event happening?</div>
+                <div class="collapsible-body"><span>It is held during Aparoksha at IIIT Allahabad.</span></div>
+              </li>
+                <li>
+                <div class="collapsible-header">Is this event open for all?</div>
+                <div class="collapsible-body"><span>No,this event is exclusive for the college students.</span></div>
+              </li>
+              </li>
+                <li>
+                <div class="collapsible-header">There are two contest on that day which one should I choose?</div>
+                <div class="collapsible-body"><span>Humblefoolcup is being held at the sametime as SRM709.Please click on HumblFoolCup for the prelims.</span></div>
               </li>
             </ul>
 </div>
@@ -238,7 +234,7 @@
       
       <div class="sponsor-logos center-align">
         
-        <h4 class="blue-text">Platform and Sponser</h4>
+        <h4 class="yellow-text">Platform and Sponsor</h4>
         <br>
         <div class="row center-align">
           <div class="col s12">
@@ -259,7 +255,7 @@
             
             <p align="right">
                 <a class="white-text" href="https://aparoksha.iiita.ac.in/">APAROKSHA</a><br>
-                <a class="white-text" href="#!">TEAM PAGE</a>
+                <a class="white-text" href="team.html">TEAM PAGE</a>
               </p>
              
               
@@ -277,6 +273,7 @@
   </div>
 </div>
     <!--  Scripts-->
+    <script src="js/loader.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
         <script src="js/header.js"></script>
